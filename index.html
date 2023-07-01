@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="parent">
+        <div class="search">
+            <input type="text" placeholder="Enter word" id="word">
+            <button id="search"><i class='bx bx-search'></i></button>
+        </div>
+        <div class="result">
+            <div class="word">
+                <span class="text"></span>
+                <span><i id="txt" class='bx bxs-volume-full'></i></span>
+
+            </div>
+            <div class="meaning">
+                <span class="mean-text"></span>
+                <span><i id="mean" class='bx bxs-volume-full'></i></span>
+
+            </div>
+            <div class="wrong">No Results Found</div>
+            <div class="msg">*Enter text</div>
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
