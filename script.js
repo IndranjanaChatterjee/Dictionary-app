@@ -32,7 +32,7 @@ search.addEventListener("click", () => {
         console.log(value[0].meanings[0].definitions[0].definition);
         text.innerHTML = `Word: ${value[0].word}`;
         mean.innerHTML = `Meaning: ${value[0].meanings[0].definitions[0].definition}`;
-        len = Object.keys(value[0].phonetics).length;
+        //len = Object.keys(value[0].phonetics).length;
         nam.style.display = "block";
         meaning.style.display = "block";
         word.value="";
